@@ -1,3 +1,5 @@
+Fixes text decoding error with some Chinese text;
+
 # PDF parser
 
 [![Version](https://poser.pugx.org/smalot/pdfparser/v)](//packagist.org/packages/smalot/pdfparser)
@@ -6,7 +8,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/smalot/pdfparser/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/smalot/pdfparser/?branch=master)
 [![Downloads](https://poser.pugx.org/smalot/pdfparser/downloads)](//packagist.org/packages/smalot/pdfparser)
 
-The `smalot/pdfparser` is a standalone PHP package that provides various tools to extract data from PDF files.
+The `ake/pdfparser` forks from `smalot/pdfparser`. It is a standalone PHP package that provides various tools to extract data from PDF files.
 
 This library is under **active maintenance**.
 There is no active development by the author of this library (at the moment), but we welcome any pull request adding/extending functionality!
@@ -33,7 +35,7 @@ This library requires PHP 7.1+ since [v1](https://github.com/smalot/pdfparser/re
 You can install it via [Composer](https://getcomposer.org/):
 
 ```bash
-composer require smalot/pdfparser
+composer require ake/pdfparser
 ```
 
 In case you can't use Composer, you can include `alt_autoload.php-dist`. It will include all required files automatically.
